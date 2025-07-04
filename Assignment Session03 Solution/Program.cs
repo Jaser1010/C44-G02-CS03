@@ -188,7 +188,14 @@ namespace Assignment_Session03
             ///above 30 degrees is "Just Hot"
 
             ///anything else is "Just Good"
+            /*
+            Console.WriteLine("Enter the temperature:");
+            int temp = Convert.ToInt32(Console.ReadLine());
 
+            string weather = temp < 10 ? "Just Cold" : (temp > 30 ? "Just Hot" : "Just Good");
+
+            Console.WriteLine(weather);
+            */
 
 
 
