@@ -213,7 +213,14 @@ namespace Assignment_Session03
             ///Today's date : 20 / 11 / 2001
 
             ///Today's date : 20 – 11 – 2001
+            /*
+            Console.WriteLine("Enter a date (e.g., 20/11/2001):");
+            DateTime userDate = DateTime.Parse(Console.ReadLine());
 
+            Console.WriteLine($"Today's date: {userDate:dd , MM , yyyy}");
+            Console.WriteLine($"Today's date: {userDate:dd / MM / yyyy}");
+            Console.WriteLine($"Today's date: {userDate:dd – MM – yyyy}");
+            */
 
 
 
