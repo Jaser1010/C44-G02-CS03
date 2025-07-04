@@ -45,14 +45,14 @@ namespace Assignment_Session03
 
 
             #region Q3 - Write C# program that Perform a simple arithmetic operation with floating-point numbers And mention what will happen
-                /*
-                float num1 = 10.5f;
-                float num2 = 2.5f;
-                float result = num1 / num2;
-                Console.WriteLine("Result of division: " + result);
-                // What will happen: The division is performed correctly, and the result is 4.2. 
-                // Floating-point types can handle fractional values without data loss in this case.
-                */
+            /*
+            float num1 = 10.5f;
+            float num2 = 2.5f;
+            float result = num1 / num2;
+            Console.WriteLine("Result of division: " + result);
+            // What will happen: The division is performed correctly, and the result is 4.2. 
+            // Floating-point types can handle fractional values without data loss in this case.
+            */
 
 
             #endregion
@@ -61,7 +61,12 @@ namespace Assignment_Session03
 
             #region Q4 - Write C# program that Extract a substring from a given string.
 
-
+                /*
+                string originalString = "Hello, World!";
+                string sub = originalString.Substring(7, 5);
+                Console.WriteLine("Original String: " + originalString);
+                Console.WriteLine("Extracted Substring: " + sub);
+                */
 
 
 
