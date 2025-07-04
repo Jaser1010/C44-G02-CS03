@@ -378,7 +378,24 @@ namespace Assignment_Session03
             ///Input: b
 
             ///Output: Consonant
+            /*
+            Console.WriteLine("Enter a character:");
+            char ch = char.ToLower(Console.ReadKey().KeyChar);
+            Console.WriteLine(); 
 
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u')
+            {
+                Console.WriteLine("vowel");
+            }
+            else if (char.IsLetter(ch))
+            {
+                Console.WriteLine("consonant");
+            }
+            else
+            {
+                Console.WriteLine("Not a valid letter.");
+            }
+            */
 
 
             #endregion
