@@ -26,9 +26,19 @@ namespace Assignment_Session03
 
             #region Q2 - Write C# program that converts a string to an integer, but the string contains non-numeric characters. And mention what will happen
 
-
-
-
+                        /*
+                        string textWithNonNumeric = "123a";
+                        try
+                        {
+                            int number = int.Parse(textWithNonNumeric);
+                            Console.WriteLine("Converted number: " + number);
+                        }
+                        catch (FormatException e)
+                        {
+                            Console.WriteLine("What will happen: A FormatException is thrown because the input string is not in the correct format.");
+                            Console.WriteLine("Error: " + e.Message);
+                        }
+                        */
 
             #endregion
 
