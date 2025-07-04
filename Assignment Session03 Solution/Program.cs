@@ -276,7 +276,19 @@ namespace Assignment_Session03
             ///Input: 10
 
             ///Output: positive
+            /*
+            Console.WriteLine("Enter an integer:");
+            int num = Convert.ToInt32(Console.ReadLine());
 
+            if (num < 0)
+            {
+                Console.WriteLine("negative");
+            }
+            else
+            {
+                Console.WriteLine("positive");
+            }
+            */
 
 
 
