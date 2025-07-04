@@ -123,7 +123,12 @@ namespace Assignment_Session03
 
             #region Q7 - Write C# program that take two string variables and print them as one variable 
 
-
+            /*
+            string firstName = "John";
+            string lastName = "Doe";
+            string fullName = firstName + " " + lastName;
+            Console.WriteLine(fullName);
+            */
 
 
 
