@@ -139,7 +139,20 @@ namespace Assignment_Session03
             #region Q8 - Write a program that calculates the simple interest given the principal amount, rate of interest, and time
 
             // Note :  The formula for simple interest is Interest = (principal * rate * time ) /100.
+            /*
+            Console.WriteLine("Enter Principal Amount:");
+            double principal = Convert.ToDouble(Console.ReadLine());
 
+            Console.WriteLine("Enter Rate of Interest:");
+            double rate = Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Enter Time (in years):");
+            double time = Convert.ToDouble(Console.ReadLine());
+
+            double interest = (principal * rate * time) / 100;
+
+            Console.WriteLine("Simple Interest: " + interest);
+            */
 
 
             #endregion
