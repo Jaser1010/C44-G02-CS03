@@ -61,12 +61,12 @@ namespace Assignment_Session03
 
             #region Q4 - Write C# program that Extract a substring from a given string.
 
-                /*
-                string originalString = "Hello, World!";
-                string sub = originalString.Substring(7, 5);
-                Console.WriteLine("Original String: " + originalString);
-                Console.WriteLine("Extracted Substring: " + sub);
-                */
+            /*
+            string originalString = "Hello, World!";
+            string sub = originalString.Substring(7, 5);
+            Console.WriteLine("Original String: " + originalString);
+            Console.WriteLine("Extracted Substring: " + sub);
+            */
 
 
 
@@ -76,7 +76,19 @@ namespace Assignment_Session03
 
             #region Q5 - Write C# program that Assigning one value type variable to another and modifying the value of one variable and mention what will happen
 
+            /*
+            int a = 10;
+            int b = a;
+            
+            Console.WriteLine("Before modification:");
+            Console.WriteLine($"a: {a}, b: {b}");
 
+            b = 20;
+            
+            Console.WriteLine("\nAfter modifying 'b':");
+            Console.WriteLine($"a: {a}, b: {b}");
+            // What will happen: Modifying 'b' does not affect 'a'. 'int' is a value type, so a copy of the value is assigned.
+            */
 
 
 
