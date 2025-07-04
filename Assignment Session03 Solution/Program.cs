@@ -409,7 +409,21 @@ namespace Assignment_Session03
             /// Input: Month Number: 1
 
             /// Output: Days in Month: 31
+            /*
+            Console.WriteLine("Input: Month Number:");
+            int month = Convert.ToInt32(Console.ReadLine());
+            int year = DateTime.Now.Year;
 
+            if (month >= 1 && month <= 12)
+            {
+                int days = DateTime.DaysInMonth(year, month);
+                Console.WriteLine("Output: Days in Month: " + days);
+            }
+            else
+            {
+                Console.WriteLine("Invalid month number.");
+            }
+            */
 
 
 
