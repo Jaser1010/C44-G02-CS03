@@ -26,26 +26,33 @@ namespace Assignment_Session03
 
             #region Q2 - Write C# program that converts a string to an integer, but the string contains non-numeric characters. And mention what will happen
 
-                        /*
-                        string textWithNonNumeric = "123a";
-                        try
-                        {
-                            int number = int.Parse(textWithNonNumeric);
-                            Console.WriteLine("Converted number: " + number);
-                        }
-                        catch (FormatException e)
-                        {
-                            Console.WriteLine("What will happen: A FormatException is thrown because the input string is not in the correct format.");
-                            Console.WriteLine("Error: " + e.Message);
-                        }
-                        */
+            /*
+            string textWithNonNumeric = "123a";
+            try
+            {
+                int number = int.Parse(textWithNonNumeric);
+                Console.WriteLine("Converted number: " + number);
+            }
+            catch (FormatException e)
+            {
+                Console.WriteLine("What will happen: A FormatException is thrown because the input string is not in the correct format.");
+                Console.WriteLine("Error: " + e.Message);
+            }
+            */
 
             #endregion
 
 
 
             #region Q3 - Write C# program that Perform a simple arithmetic operation with floating-point numbers And mention what will happen
-
+                /*
+                float num1 = 10.5f;
+                float num2 = 2.5f;
+                float result = num1 / num2;
+                Console.WriteLine("Result of division: " + result);
+                // What will happen: The division is performed correctly, and the result is 4.2. 
+                // Floating-point types can handle fractional values without data loss in this case.
+                */
 
 
             #endregion
