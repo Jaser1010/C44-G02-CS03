@@ -98,7 +98,22 @@ namespace Assignment_Session03
 
             #region Q6 - Write C# program that Assigning one reference type variable to another and modifying the object through one variable and mention what will happen
 
+            /*
+            MyClass obj1 = new MyClass();
+            obj1.MyProperty = 10;
 
+            MyClass obj2 = obj1; 
+
+            Console.WriteLine("Before modification:");
+            Console.WriteLine($"obj1.MyProperty: {obj1.MyProperty}, obj2.MyProperty: {obj2.MyProperty}");
+            
+            obj2.MyProperty = 20;
+
+            Console.WriteLine("\nAfter modifying obj2.MyProperty:");
+            Console.WriteLine($"obj1.MyProperty: {obj1.MyProperty}, obj2.MyProperty: {obj2.MyProperty}");
+            // What will happen: Modifying the property via 'obj2' also changes it for 'obj1' because both variables
+            // reference the same object in memory.
+            */
 
 
 
