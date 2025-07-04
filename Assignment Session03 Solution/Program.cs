@@ -318,7 +318,19 @@ namespace Assignment_Session03
             ///Max element = 9
 
             ///Min element = 3
+            /*
+            Console.WriteLine("Enter three integers separated by space (e.g., 7 8 5):");
+            string[] inputs = Console.ReadLine().Split(' ');
+            int num1 = int.Parse(inputs[0]);
+            int num2 = int.Parse(inputs[1]);
+            int num3 = int.Parse(inputs[2]);
 
+            int max = Math.Max(num1, Math.Max(num2, num3));
+            int min = Math.Min(num1, Math.Min(num2, num3));
+
+            Console.WriteLine($"max element = {max}");
+            Console.WriteLine($"min element = {min}");
+            */
 
 
 
