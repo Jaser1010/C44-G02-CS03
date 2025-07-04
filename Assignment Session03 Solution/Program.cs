@@ -242,7 +242,19 @@ namespace Assignment_Session03
             ///Input: 9
 
             ///Output: No
+            /*
+            Console.WriteLine("Enter a number:");
+            int num = Convert.ToInt32(Console.ReadLine());
 
+            if (num % 3 == 0 && num % 4 == 0)
+            {
+                Console.WriteLine("Yes");
+            }
+            else
+            {
+                Console.WriteLine("No");
+            }
+            */
 
 
 
